@@ -1,0 +1,49 @@
+.detail-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .back-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .detail-card {
+    display: flex;
+    gap: 2rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+  }
+  
+  .image-section img {
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .info-section {
+    flex: 1;
+  }
+  
+  .info-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-section p {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #444;
+  }
